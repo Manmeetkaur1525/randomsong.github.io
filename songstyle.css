@@ -1,0 +1,61 @@
+#background{
+    background-image: url('music.jpg');
+    /* background-image: url("music.jpg"); */
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+     color: white; 
+     font-weight: bold; 
+     border: 3px solid #f1f1f1; 
+     position: absolute; 
+     top: 50%; 
+     left: 50%; 
+     transform: translate(-50%, -50%); 
+     z-index: 2; 
+     width: 80%; 
+     padding: 20px; 
+     text-align: center;
+   } 
+
+#song1
+{
+    background-image: url("unnamed.png") ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    
+}
+button
+{
+    background-color: black;
+    color: #f1f1f1;
+    border: black;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+font-size: large;
+}
+button:hover
+{
+    background-color: rgba(0,0,0, 0.4);
+}
